@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#container {
+    height: 560px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: relative;
+}
+
+#title {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#visHolder {
+    position: absolute;
+}
+
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font-size: 12px;
+    background-color: lightsteelblue;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.overlay {
+    background-color: #fff;
+    position: absolute;
+    pointer-events: none;
+}
